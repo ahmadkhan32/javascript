@@ -1,0 +1,92 @@
+/* Reset default margins */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: #0055ff; /* light gray */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* full screen height */
+}
+
+/* Box container */
+.container {
+  background: #f40000;
+  border-radius: 12px;
+  padding: 30px;
+  max-width: 600px;
+  width: 90%;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+  border: 2px solid #4f46e5; /* Indigo border */
+  text-align: center;
+}
+
+/* Heading */
+.container h1 {
+  font-size: 2rem;
+  color: #1f2937; /* dark gray */
+  margin-bottom: 15px;
+  background-color: #4f46e5;
+}
+
+/* Paragraph */
+.container p {
+  font-size: 1.1rem;
+  color: #374151; /* medium gray */
+  line-height: 1.6;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .container {
+    padding: 20px;
+  }
+  .container h1 {
+    font-size: 1.6rem;
+  }
+  .container p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .container h1 {
+    font-size: 1.4rem;
+  }
+  .container p {
+    font-size: 0.95rem;
+  }
+}
+
+nav ul {
+  list-style: none;
+  margin-bottom: 570px;
+  padding: 0;
+  display: flex;          /* Make items horizontal */
+  justify-content: flex-start; /* Align menu to the right */
+  background-color: #333; /* Dark background */
+  width: 1000px;
+}
+
+/* List items */
+nav ul li {
+  margin: 0;
+  margin-top: auto;
+}
+
+/* Links */
+nav ul li a {
+  display: block;
+  padding: 14px 20px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+/* Hover effect */
+nav ul li a:hover {
+  background-color: #575757;
+  border-radius: 4px;
+}

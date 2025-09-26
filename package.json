@@ -1,0 +1,17 @@
+{
+  "name": "javascript-advanced",
+  "version": "1.0.0",
+  "main": "For Loop.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Node"
+  ],
+  "author": "Ahmad",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
